@@ -235,7 +235,7 @@ img { display: block; max-width: 100%; }
 }
 .profile-photo-stack {
   position: relative;
-  margin: -6px -6px 22px;
+  margin: -18px -18px 18px;
 }
 .profile-photo-tag {
   position: absolute;
@@ -255,8 +255,8 @@ img { display: block; max-width: 100%; }
 .profile-photo-frame {
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(157, 92, 110, .14);
-  border-radius: 34px;
+  border: 1px solid rgba(157, 92, 110, .12);
+  border-radius: 36px;
   background: linear-gradient(160deg, rgba(247, 232, 234, .92), rgba(255, 255, 255, .98));
   box-shadow: var(--shadow-md);
 }
@@ -265,7 +265,7 @@ img { display: block; max-width: 100%; }
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center center;
-  transform: scale(1.08);
+  transform: scale(1.18);
 }
 .floating-badge {
   position: absolute;
@@ -290,7 +290,7 @@ img { display: block; max-width: 100%; }
   display: none !important;
 }
 .profile-card--featured {
-  padding-top: 28px;
+  padding: 18px 18px 30px;
 }
 .profile-card--featured h2 {
   font-size: 24px;

@@ -128,8 +128,14 @@ function homePage() {
             <div class="stat"><strong>01</strong><span>Hành trình trưởng thành số</span></div>
           </div>
         </div>
-        <aside class="profile-card" aria-label="Hồ sơ sinh viên">
-          <div class="avatar-monogram" aria-hidden="true">QT</div>
+        <aside class="profile-card profile-card--featured" aria-label="Hồ sơ sinh viên">
+          <div class="profile-photo-stack">
+            <span class="profile-photo-tag">Trang chủ · góc ảnh riêng</span>
+            <div class="profile-photo-frame">
+              <img src="./assets/images/profile/home-photo.png" alt="Ảnh chân dung của Nguyễn Thị Quỳnh Thương trong khung pastel nhẹ nhàng." />
+            </div>
+            <span class="floating-badge" aria-hidden="true">QT</span>
+          </div>
           <h2>Nguyễn Thị Quỳnh Thương</h2>
           <p class="role">Sinh viên Kinh tế Quốc tế</p>
           <dl class="profile-meta">
@@ -143,8 +149,9 @@ function homePage() {
     </section>
 
     <section class="section">
-      <div class="page-width intro-panel">
-        <aside class="quote-card">
+      <div class="page-width intro-panel intro-panel--home">
+        <aside class="quote-card quote-card--soft">
+          <p class="eyebrow" style="color:#f7e8ea">Một ghi chú nhỏ</p>
           <div class="quote-mark">“</div>
           <blockquote>Học tập không hướng đến một đích đến hoàn hảo, mà là hành trình tích lũy để ngày mai tốt hơn ngày hôm qua.</blockquote>
         </aside>
@@ -176,7 +183,7 @@ function homePage() {
 
 function aboutPage() {
   return `<div class="page">
-    <section class="page-hero">
+    <section class="page-hero page-hero--about">
       <div class="page-width page-hero-grid">
         <div>
           <div class="breadcrumbs"><a href="#/">Trang chủ</a><span>/</span><span>Giới thiệu</span></div>
@@ -188,10 +195,16 @@ function aboutPage() {
       </div>
     </section>
     <section class="section">
-      <div class="page-width intro-panel">
-        <aside class="quote-card">
-          <p class="eyebrow" style="color:#ecd0d5">Phong cách cá nhân</p>
-          <blockquote>Dịu dàng không có nghĩa là đứng yên. Tôi muốn tiến về phía trước bằng sự kiên trì, tò mò và trách nhiệm.</blockquote>
+      <div class="page-width intro-panel intro-panel--about">
+        <aside class="about-visual">
+          <figure class="about-photo-card">
+            <img src="./assets/images/profile/about-photo.png" alt="Nguyễn Thị Quỳnh Thương cầm bó hoa trong khung ảnh pastel dịu nhẹ." />
+            <figcaption>Khoảnh khắc tôi muốn giữ lại trong cuốn portfolio này: dịu dàng, chỉn chu và vẫn là chính mình.</figcaption>
+          </figure>
+          <div class="quote-card quote-card--mini">
+            <p class="eyebrow" style="color:#f7e8ea">Phong cách cá nhân</p>
+            <blockquote>Dịu dàng không có nghĩa là đứng yên. Tôi muốn tiến về phía trước bằng sự kiên trì, tò mò và trách nhiệm.</blockquote>
+          </div>
         </aside>
         <article class="prose">
           <h2>Xin chào, tôi là Quỳnh Thương.</h2>

@@ -130,11 +130,9 @@ function homePage() {
         </div>
         <aside class="profile-card profile-card--featured" aria-label="Hồ sơ sinh viên">
           <div class="profile-photo-stack">
-            <span class="profile-photo-tag">Trang chủ · góc ảnh riêng</span>
-            <div class="profile-photo-frame">
+                        <div class="profile-photo-frame">
               <img src="./assets/images/profile/home-photo.png" alt="Ảnh chân dung của Nguyễn Thị Quỳnh Thương trong khung pastel nhẹ nhàng." />
             </div>
-            <span class="floating-badge" aria-hidden="true">QT</span>
           </div>
           <h2>Nguyễn Thị Quỳnh Thương</h2>
           <p class="role">Sinh viên Kinh tế Quốc tế</p>
